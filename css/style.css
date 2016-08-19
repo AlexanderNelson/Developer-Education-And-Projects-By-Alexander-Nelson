@@ -1,4 +1,6 @@
-
+section {
+  background-color: #ffd180;
+}
 ul.topnav {
   -webkit-box-shadow: 10px 10px 20px 0px rgba(82, 81, 82, 0.74);
   -moz-box-shadow: 10px 10px 20px 0px rgba(82, 81, 82, 0.74);
@@ -44,7 +46,9 @@ ul.topnav li a.active {
     li, ul, ul.topnav li.right,
     ul.topnav li {
           display: inline;
-
+margin: 0;
+height:0px;
+padding:0;
       float: none;
       width: 3%;
   }
@@ -53,6 +57,13 @@ ul.topnav li a.active {
 @media (max-width: 690px){
     .topnav{
       font-size: .8em;
+  }
+}
+
+/*shrink project button*/
+@media (max-width: 690px){
+    .btn{
+      transform: scale(.5,.5);
   }
 }
 
@@ -95,7 +106,7 @@ box-shadow: inset 6px 6px 5px -2px rgba(99,49,09,0.74);
   background-size: cover;
   border: 16px solid #ffab14;
   border-radius: 5px;
-  margin: 100px 50px 45px 50px;
+  margin: 3.1em;
   padding: 8% 8% 8% 8%;
 -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
@@ -135,12 +146,6 @@ box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
   transition: all 0.3s;
 }
 
-/*name bar*/
-/* .profile-header-content {
-    position: relative;
-  margin-top: 220px;
-  margin-bottom: 25px;
-    padding: 5px 0px 5px 0px;  }*/
 .picAnchor {
   position: relative;
   background-image: url("../images/orangefabric-opt.jpg");
@@ -150,7 +155,7 @@ box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
 }
 @media (max-width: 834px) {
-.profile-avatar, h1 {
+.profile-avatar, h1, .profile-header-content, #welcome {
   width: 100px;
   height: 100px;
   display: none;
@@ -169,23 +174,6 @@ box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 11px -1px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 11px -1px rgba(0,0,0,0.75);
 }
-
-/*.profile-name h1 {
-  display: inline-block;
-  margin: 0 0 5px 0;
-  position: relative
-}*/
-/*@media (max-width: 550px) {
-  .profile-name {
-    text-align: left;
-    padding: 0 0 0 100px;
-  }
-}*/
-/*.profile-username-area .badge {
-  position: relative;
-  top: 0;
-  margin-left: 5px;
-}*/
 
 .profile-location-and-bio {
   text-align: center;
@@ -314,6 +302,7 @@ box-shadow: inset 6px 6px 5px -2px rgba(99,49,09,0.74);
      opacity: .8;
      text-align: center;
      border-radius: 10px;
+     padding: 1em;
     text-shadow:
     -1px -1px 0 #ffab40,
     1px -1px 0 black,
@@ -326,11 +315,11 @@ box-shadow: inset 6px 6px 5px -2px rgba(99,49,09,0.74);
 form { max-width:420px; margin:50px auto; }
 .feedback-input {
   color: #242424;
-  margin-bottom: 10px;
+  margin-bottom: .5em;
   font-weight:800;
-  font-size: 18px;
+  font-size: .5em;
   border-radius: 10px;
-  padding: 20px;
+  padding: .5em;
   width:100%;
 }
 
@@ -363,7 +352,15 @@ box-shadow: inset 6px 6px 5px -2px rgba(99,49,09,0.74);
 #footer {
   background-image: url("../images/orangefabric-opt");
   background-size: cover;
-  font-size: 35px;
-  margin-bottom: 40px;
+  font-size: 2em;
+  margin-bottom: 2em;
+}
 
+img {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: .5em;
+    margin-top: .5em;
 }
