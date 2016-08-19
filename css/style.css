@@ -19,9 +19,10 @@ ul.topnav {
     width: 100%;
 z-index: 1;
 }
-ul.topnav li {float: right;
+ul.topnav li {
+  float: right;
   border-left:2px solid #bbb;
-  width: 11.111111111%;
+  width: 10.9629817%;
 }
 li:last-child {
     border-right: none;
