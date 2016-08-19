@@ -1,6 +1,18 @@
-section {
-  background-color: #ffd180;
+#blanket {
+ background-color: #ffd180;
+ max-width: 1080px;
+ border: 1px solid gray;
+ -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
 }
+
+#page {
+ background-image: url("../images/wht-bg.jpg");
+    background-repeat: repeat;
+
+}
+
 ul.topnav {
   -webkit-box-shadow: 10px 10px 20px 0px rgba(82, 81, 82, 0.74);
   -moz-box-shadow: 10px 10px 20px 0px rgba(82, 81, 82, 0.74);
@@ -22,7 +34,7 @@ z-index: 1;
 ul.topnav li {
   float: right;
   border-left:2px solid #bbb;
-  width: 10.95%;
+  width: 11.111111%;
 }
 li:last-child {
     border-right: none;
@@ -44,14 +56,14 @@ ul.topnav li a.active {
   }
 
 @media screen and (max-width: 600px){
-    li, ul, ul.topnav li.right,
-    ul.topnav li {
-          display: inline;
-margin: 0;
-height:0px;
-padding:0;
-      float: none;
-      width: 3%;
+  li, ul, ul.topnav li.right,
+  ul.topnav li {
+    display: none;
+    margin: 0;
+    height:0px;
+    padding:0;
+    float: none;
+    width: 3%;
   }
 }
 /*shrink the nav button text*/
@@ -107,7 +119,7 @@ box-shadow: inset 6px 6px 5px -2px rgba(99,49,09,0.74);
   background-size: cover;
   border: 16px solid #ffab14;
   border-radius: 5px;
-  margin: 3.1em;
+  margin: 6.1em 0em 3.1em 0em;
   padding: 8% 8% 8% 8%;
 -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
@@ -118,7 +130,8 @@ box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
   height: 100%;
   width: 100%;
   margin: 0 0 45px 0;
-  background: #898989;
+  background-image: url("../images/beige-bg.jpg");
+  background-repeat: repeat;
   border: 16px solid #ffab14;
   border-radius: 5px;
   padding: 0% 18% 0% 0%;
@@ -135,7 +148,7 @@ box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
 }
-  .btn {
+  /*.btn {
   background: -webkit-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%);
  width: 90%;
   margin-bottom: 30px;
@@ -145,6 +158,10 @@ box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
   font-size:12px;
     font-weight: 900;
   transition: all 0.3s;
+}*/
+
+.button-default {
+  opacity: 0;
 }
 
 .picAnchor {
@@ -282,9 +299,11 @@ box-shadow: inset 6px 6px 5px -2px rgba(99,49,09,0.74);
 
 }
    #titleWell, h3, #footer {
-    background-color: orange;
+    background-image: url("../images/beige-bg.jpg");
+    background-repeat: repeat;
+    padding: 3px;
      text-align: center;
-      margin: 30px 30px 0 30px;
+      margin: 30px 30px 30px 30px;
      border-radius: 10px;
      /*category and invitation text*/
      font-weight: 900;
@@ -351,7 +370,7 @@ box-shadow: inset 6px 6px 5px -2px rgba(99,49,09,0.74);
 }
 
 #footer {
-  background-image: url("../images/orangefabric-opt");
+  background-image: url("../images/orangefabric-opt.jpg");
   background-size: cover;
   font-size: 2em;
   margin-bottom: 2em;
