@@ -148,6 +148,27 @@ box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
 }
+
+.chart2 {
+  border: .5em solid gray;
+  width: 110%;
+   -webkit-transform: translateX(5%);
+  transform: translateX(5%);
+
+  -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+
+h4 {
+   -webkit-transform: translateX(10%);
+  transform: translateX(10%);
+  font-weight: 600;
+
+
+}
+
+
   /*.btn {
   background: -webkit-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%);
  width: 90%;
