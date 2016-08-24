@@ -203,6 +203,12 @@ box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
   margin: 0 0 10px 0
 }
 
+.email {
+  text-align: center;
+  padding: 10px 0 20px 0;
+  font-weight: 900;
+}
+
 .btn:hover {
   background: -webkit-linear-gradient(top, #feccb1 40%,#f17432 50%,#ea5507 51%,#ffab18 100%);
  width: 89%;
