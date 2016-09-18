@@ -65,7 +65,7 @@ To contribute, clone this repo locally and commit your code on a separate branch
 
 
 Support
----------------------
+-------
 
 Email: AmVetServ@gmail.com
 
@@ -79,9 +79,5 @@ Copyright &copy; 2016, Alexander Nelson
 
 [Sheets]: https://www.google.com/sheets/about/
 [ghchart]: https://github.com/2016rshah/githubchart-api
-[shield-coverage]: https://img.shields.io/badge/coverage-100%25-brightgreen.svg
 [shield-dependencies]: https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg
-[shield-license]: https://img.shields.io/badge/license-MIT-blue.svg
-[shield-node]: https://img.shields.io/badge/node.js%20support-0.10–5-brightgreen.svg
-[shield-npm]: https://img.shields.io/badge/npm-v3.2.0-blue.svg
 [shield-build]: https://img.shields.io/badge/build-passing-brightgreen.svg
