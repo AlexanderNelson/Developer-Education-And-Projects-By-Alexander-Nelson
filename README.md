@@ -55,7 +55,7 @@ replace this with your info
 
 ```
 <img class = "chart2" src="http://ghchart.rshah.org/AlexanderNelson" alt="Alexander Nelson's Github chart" />
-
+```
 
 
 Contributing
